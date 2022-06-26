@@ -1,0 +1,35 @@
+{
+        "Меню":
+        {
+                "идентификатор": "1",
+                "value": "Файл",
+                "список":
+                {},
+                "элементы":
+                {},
+                "new_doc":
+                {
+                        "value": "Новый",
+                        "onclick": "create_new_doc"
+                },
+                "open_doc":
+                {
+                        "value": "Открыть...",
+                        "onclick": "open_doc"
+                },
+                "save_doc":
+                {
+                        "value": "Cохранить",
+                        "onclick": "save_doc",
+                        "save_as_doc" : "Сохранить как..."},
+                        "print_option":
+                        {
+                                "value": "Размер печати",
+                                "onclick": "show_print_option",
+                                "Цвет": "Насыщенный",
+                                "Черно-белая печать?": "",
+                                "Размер печати": "A4"
+                       
+                }
+        }
+}
